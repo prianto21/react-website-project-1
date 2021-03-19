@@ -1,6 +1,12 @@
 import React from "react";
-import "../../App.css";
 
-export default function SignUp() {
-  return <h1 className="sign-up">Sign Up</h1>;
+function SignUp() {
+  return (
+    <div>
+      <h1>signup</h1>
+      <img src="images/img-6.jpg" alt="images" className="cards__item__img" />
+    </div>
+  );
 }
+
+export default SignUp;

@@ -1,6 +1,12 @@
 import React from "react";
-import "../../App.css";
 
-export default function Products() {
-  return <h1 className="product">Product</h1>;
+function Products() {
+  return (
+    <div>
+      <h1>products</h1>
+      <img src="images/img-8.jpg" alt="images" className="cards__item__img" />
+    </div>
+  );
 }
+
+export default Products;
